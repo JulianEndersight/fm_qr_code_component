@@ -1,0 +1,39 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --gray_blue: hsl(220, 15%, 55%);
+    --dark_blue: hsl(218, 44%, 22%);
+    --light_gray: hsl(212, 45%, 89%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    min-height: 100svh;
+    min-height: 100vh;
+    background-color: var(--light_gray);
+    /*line-height: 1.5;*/
+    /*-webkit-font-smoothing: antialiased;*/
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+    /*overflow-wrap: break-word;*/
+}
+
+p {
+    max-width: 75cm;
+    text-wrap: pretty;
+}
