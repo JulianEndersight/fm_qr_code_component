@@ -1,1 +1,0 @@
-console.log("Hello! Im speaking from the console");
