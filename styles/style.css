@@ -1,8 +1,16 @@
 :root {
-    --white: hsl(0, 0%, 100%);
-    --gray_blue: hsl(220, 15%, 55%);
-    --dark_blue: hsl(218, 44%, 22%);
-    --light_gray: hsl(212, 45%, 89%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-gray: hsl(212, 45%, 89%);
+    --clr-gray-blue: hsl(220, 15%, 55%);
+    --clr-dark-blue: hsl(218, 44%, 22%);
+
+    --fs-300: 0.875rem;
+    --fs-400: 1rem;
+    --fs-700: 1.75rem;
+
+    --fw-400: 400;
+    --fw-700: 700;
+    --fw-900: 900;
 }
 
 *, *::before, *::after {
